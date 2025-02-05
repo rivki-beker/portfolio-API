@@ -26,8 +26,6 @@ The **Portfolio API** is a .NET-based service that retrieves and displays GitHub
 - **Scrutor** – Extends .NET dependency injection with service decoration.
 - **MemoryCache** – Used to optimize GitHub API requests.
 
----
-
 ## Project Structure
 
 The solution consists of:
@@ -35,8 +33,6 @@ The solution consists of:
 1. **Service Layer (`IGitHubService`)** – Handles GitHub API calls.
 2. **Cache Layer (`CacheGitHubService`)** – Implements caching to minimize GitHub API usage.
 3. **Web API (`PortfolioController`)** – Exposes endpoints for retrieving portfolio data.
-
----
 
 ## Getting Started
 
@@ -61,8 +57,6 @@ The solution consists of:
    dotnet run --project WebAPI
    ```
    The API is now available at `https://localhost:5001`.
-
----
 
 ## API Endpoints
 
@@ -92,15 +86,11 @@ The solution consists of:
   - `language` (optional) – Filter by language.
   - `userName` (optional) – Filter by owner.
 
----
-
 ## Additional Resources
 
 - [Octokit.NET Documentation](https://octokitnet.readthedocs.io/en/latest)
 - [.NET Dependency Injection & Scrutor](https://andrewlock.net/using-scrutor-to-automatically-register-your-services-with-the-asp-net-core-di-container/)
 - [.NET Memory Caching](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/memory)
-
----
 
 ## Contributing
 
